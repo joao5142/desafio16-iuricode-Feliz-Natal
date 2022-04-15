@@ -33,4 +33,15 @@ export default {
   padding: 10px;
   border-radius: 50%;
 }
+
+@media (max-width: 450px) {
+  .social {
+    width: 40px;
+    height: 40px;
+  }
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
+}
 </style>

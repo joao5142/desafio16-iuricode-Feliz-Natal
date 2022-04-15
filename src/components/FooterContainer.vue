@@ -42,11 +42,21 @@ footer {
 }
 ul {
   display: flex;
+
   gap: 40px;
 }
 @media (max-width: 768px) {
   ul {
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  ul {
+    gap: 20px;
+    padding: 0px;
   }
 }
 </style>

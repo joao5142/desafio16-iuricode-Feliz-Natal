@@ -60,6 +60,7 @@ body {
   background-color: var(--pink-color);
   font-weight: 500;
   color: var(--black-light-color);
+  overflow-x: hidden;
 }
 /*##UTILS */
 .title {
